@@ -14,5 +14,5 @@ This project is developed in Kotlin using the concept of clean architecture (MVV
 - Need to add more test cases.
 - UI related changes required.
 - Comments are not added in the entire project , so need to add that.
-- Dark theme support is needs to be improved.
+- Dark theme support needs to be improved.
 - Testing of few features is yet pending.
