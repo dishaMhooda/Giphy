@@ -15,6 +15,7 @@ This project is developed in Kotlin using the concept of clean architecture (MVV
 - UI related changes required.
 - For now giphy are directly displayed from the response received but they are not stored in database. Once reponse has been stored in database, giphy will be displayed from database and it will improve inifite scrolling also, as for now older records are not displayed.
 - Comments are not added in the entire project , so need to add that.
+- Need to add paging library.
 - Dark theme support needs to be improved.
 - Testing of few features is yet pending.
 
