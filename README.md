@@ -7,7 +7,7 @@ This project is developed in Kotlin using the concept of clean architecture (MVV
 - Glide has been used for handling images/gif.
 - Viewpager and tab has been used
 - Infinite paging has been added.
-- Searchbar is there which stored the searched history.
+- Searchbar is there which stores the searched history.
 - Storing and retrieving of favourite giphy has been added.
 
 ## Improvement to be done
