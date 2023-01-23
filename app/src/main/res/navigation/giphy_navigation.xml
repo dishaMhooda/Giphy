@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/giphy_navigation"
+    app:startDestination="@id/viewPagerFragment">
+
+    <fragment
+        android:id="@+id/trendingGiphyFragment"
+        android:name="com.disha.giphy.presentation.ui.fragment.TrendingGiphyFragment"
+        android:label="fragment_trending_giphy"
+        tools:layout="@layout/fragment_trending_giphy" />
+    <fragment
+        android:id="@+id/favouriteGiphy"
+        android:name="com.disha.giphy.presentation.ui.fragment.FavouriteGiphyFragment"
+        android:label="fragment_favourite_giphy"
+        tools:layout="@layout/fragment_favourite_giphy" />
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.disha.giphy.presentation.ui.fragment.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" />
+</navigation>
